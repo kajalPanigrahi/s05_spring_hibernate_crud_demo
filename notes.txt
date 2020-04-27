@@ -1,0 +1,43 @@
+--controller
+	- view ( jsp name
+	- model
+
+	- String -- ModelMap
+	- ModelMap
+	- ModelAndView
+
+-- RequestDispatching
+	- controller -> view
+
+-- Send Redirect
+	- Controller -> a url 
+
+@Component
+	- bean
+@Controller
+	- @Component , special bean--> controller
+	- @Service
+	- @Repository
+
+@ComponentScan 
+
+-- DataAccess Layer
+	- JDBC
+		- Java DataBase Connectivity API
+	- RDBMS
+		- MySQL, Oracle, 
+
+
+	- ORM Implementations
+		- Hibernate
+	- Spring-Hibernate-ORM
+
+testempdb
+	- db schema
+	- creating tables	
+	- with relationships
+	-- Hibernate
+
+-- automatically validates or exports your database schema as DDL queries to your databases
+
+-- SessionFactory
